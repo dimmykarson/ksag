@@ -1,5 +1,9 @@
 require "ksag/version"
 
 module Ksag
-  # Your code goes here...
+  class Hello
+    def say!
+      puts "Hello!"
+    end
+  end
 end
